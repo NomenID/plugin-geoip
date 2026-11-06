@@ -1,0 +1,30 @@
+{
+    "name": "GeoIP",
+    "version": "1.0.0",
+    "description": "按 IP 查国家与位置：注册页预填国家、活动日志补地点",
+    "license": "GPL-3.0-only",
+    "author": [
+        "Yunyun"
+    ],
+    "requires": {
+        "Nomen": ">=1.0"
+    },
+    "autoload": {
+        "Nomen\\Plugin\\GeoIP\\": "src/"
+    },
+    "boot": [
+        "Nomen\\Plugin\\GeoIP\\Plugin",
+        "boot"
+    ],
+    "specialPages": {
+        "geoip": {
+            "title": "GeoIP 状态",
+            "access": "admin",
+            "handler": [
+                "Nomen\\Plugin\\GeoIP\\SpecialGeoIP",
+                "render"
+            ]
+        }
+    },
+    "homepage": "https://github.com/NomenID/plugin-geoip"
+}
