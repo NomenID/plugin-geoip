@@ -1,7 +1,7 @@
 {
     "name": "GeoIP",
     "version": "1.0.0",
-    "description": "按 IP 查国家与位置：注册页预填国家、活动日志补地点",
+    "description": "Country and location by IP: prefills signup country, adds location to activity logs",
     "license": "GPL-3.0-only",
     "author": [
         "Yunyun"
