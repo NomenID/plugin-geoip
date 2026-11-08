@@ -4,7 +4,7 @@
     "description": "Country and location by IP: prefills signup country, adds location to activity logs",
     "license": "GPL-3.0-only",
     "author": [
-        "Yunyun"
+        "Yunyun (Wang Yaoze)"
     ],
     "requires": {
         "Nomen": ">=1.0"
@@ -26,5 +26,5 @@
             ]
         }
     },
-    "homepage": "https://github.com/NomenID/plugin-geoip"
+    "homepage": "https://nomen.caellab.com/w/plugin-geoip"
 }
