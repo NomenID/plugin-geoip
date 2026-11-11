@@ -1,8 +1,8 @@
 {
     "name": "GeoIP",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Country and location by IP: prefills signup country, adds location to activity logs",
-    "license": "GPL-3.0-only",
+    "license": "Apache-2.0",
     "author": [
         "Yunyun (Wang Yaoze)"
     ],

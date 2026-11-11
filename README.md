@@ -2,7 +2,7 @@
 
 按 IP 查国家和位置：注册页预填国家、活动日志补地点。
 
-GeoIP 是独立项目，不属于 Nomen 本体，按 GPLv3 单独发布：
+GeoIP 是独立项目，不属于 Nomen 本体，按 Apache-2.0 单独发布：
 <https://github.com/NomenID/plugin-geoip>。
 
 没装依赖或没有数据文件时静默降级（返回空 /「未知位置」），不影响注册和登录。
@@ -28,6 +28,6 @@ GeoIP 是独立项目，不属于 Nomen 本体，按 GPLv3 单独发布：
 
 ## 许可
 
-GPL-3.0-only，协议全文见 [LICENSE](LICENSE)。
+Apache-2.0，协议全文见 [LICENSE](LICENSE)。
 
 Copyright (C) 2025-2026 Yunyun (Wang Yaoze)
