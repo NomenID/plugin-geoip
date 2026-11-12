@@ -1,3 +1,10 @@
 {
-  "Country and location by IP: prefills signup country, adds location to activity logs": "País e localização por IP: pré-preenche o país no registo e acrescenta a localização aos registos de atividade"
+    "Country and location by IP: prefills signup country, adds location to activity logs": "País e localização por IP: pré-preenche o país no registo e acrescenta a localização aos registos de atividade",
+    "Local": "Local",
+  "8.8.8.8 resolves to {:location} ({:code})": "8.8.8.8 resolve para {:location} ({:code})",
+  "File size": "Tamanho do arquivo",
+  "Missing data/GeoLite2-City.mmdb": "Falta data/GeoLite2-City.mmdb",
+  "Not installed (composer require geoip2/geoip2)": "Não instalado (composer require geoip2/geoip2)",
+  "Updated": "Atualizado",
+  "geoip2 library": "biblioteca geoip2"
 }

@@ -1,3 +1,10 @@
 {
-    "Country and location by IP: prefills signup country, adds location to activity logs": "按 IP 查国家与位置：注册页预填国家、活动日志补地点"
+    "Country and location by IP: prefills signup country, adds location to activity logs": "按 IP 查国家与位置：注册页预填国家、活动日志补地点",
+    "Local": "本地",
+  "8.8.8.8 resolves to {:location} ({:code})": "8.8.8.8 查出来是 {:location}（{:code}）",
+  "File size": "文件大小",
+  "Missing data/GeoLite2-City.mmdb": "缺 data/GeoLite2-City.mmdb",
+  "Not installed (composer require geoip2/geoip2)": "没装（composer require geoip2/geoip2）",
+  "Updated": "更新时间",
+  "geoip2 library": "geoip2 库"
 }

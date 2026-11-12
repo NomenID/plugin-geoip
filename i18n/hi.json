@@ -1,3 +1,10 @@
 {
-  "Country and location by IP: prefills signup country, adds location to activity logs": "IP से देश और स्थान: पंजीकरण पर देश पहले से भरता है और गतिविधि लॉग में स्थान जोड़ता है"
+    "Country and location by IP: prefills signup country, adds location to activity logs": "IP से देश और स्थान: पंजीकरण पर देश पहले से भरता है और गतिविधि लॉग में स्थान जोड़ता है",
+    "Local": "स्थानीय",
+  "8.8.8.8 resolves to {:location} ({:code})": "8.8.8.8 का परिणाम {:location} ({:code})",
+  "File size": "फ़ाइल आकार",
+  "Missing data/GeoLite2-City.mmdb": "data/GeoLite2-City.mmdb फ़ाइल नहीं मिली",
+  "Not installed (composer require geoip2/geoip2)": "इंस्टॉल नहीं है (composer require geoip2/geoip2)",
+  "Updated": "अंतिम अपडेट",
+  "geoip2 library": "geoip2 लाइब्रेरी"
 }

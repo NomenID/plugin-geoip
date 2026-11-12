@@ -18,10 +18,10 @@ class SpecialGeoIP
         $hasDb = file_exists($dbPath);
 
         $rows = [
-            'geoip2 库' => $hasLib ? '已安装' : '没装（composer require geoip2/geoip2）',
-            '数据库文件' => $hasDb ? $dbPath : '缺 data/GeoLite2-City.mmdb',
-            '文件大小' => $hasDb ? round(filesize($dbPath) / 1048576, 1) . ' MB' : '—',
-            '更新时间' => $hasDb ? date('Y-m-d H:i', filemtime($dbPath)) : '—',
+            t('geoip2 library') => $hasLib ? t('Installed') : t('Not installed (composer require geoip2/geoip2)'),
+            t('Database file') => $hasDb ? $dbPath : t('Missing data/GeoLite2-City.mmdb'),
+            t('File size') => $hasDb ? round(filesize($dbPath) / 1048576, 1) . ' MB' : '—',
+            t('Updated') => $hasDb ? date('Y-m-d H:i', filemtime($dbPath)) : '—',
         ];
 
         $html = '<table class="table">';
@@ -33,7 +33,10 @@ class SpecialGeoIP
         if ($hasLib && $hasDb) {
             $sample = Resolver::getLocation('8.8.8.8');
             $code = Resolver::getCountryCode('8.8.8.8') ?? '—';
-            $html .= '<p>8.8.8.8 查出来是 ' . htmlspecialchars($sample) . '（' . htmlspecialchars($code) . '）</p>';
+            $html .= '<p>' . htmlspecialchars(t('8.8.8.8 resolves to {:location} ({:code})', [
+                'location' => $sample,
+                'code'     => $code,
+            ])) . '</p>';
         }
 
         return $html;

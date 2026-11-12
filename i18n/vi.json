@@ -1,3 +1,10 @@
 {
-  "Country and location by IP: prefills signup country, adds location to activity logs": "Quốc gia và vị trí theo IP: điền sẵn quốc gia khi đăng ký và thêm vị trí vào nhật ký hoạt động"
+    "Country and location by IP: prefills signup country, adds location to activity logs": "Quốc gia và vị trí theo IP: điền sẵn quốc gia khi đăng ký và thêm vị trí vào nhật ký hoạt động",
+    "Local": "Cục bộ",
+  "8.8.8.8 resolves to {:location} ({:code})": "8.8.8.8 phân giải thành {:location} ({:code})",
+  "File size": "Kích thước tệp",
+  "Missing data/GeoLite2-City.mmdb": "Thiếu data/GeoLite2-City.mmdb",
+  "Not installed (composer require geoip2/geoip2)": "Chưa cài (composer require geoip2/geoip2)",
+  "Updated": "Cập nhật",
+  "geoip2 library": "thư viện geoip2"
 }

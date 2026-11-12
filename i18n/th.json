@@ -1,3 +1,10 @@
 {
-  "Country and location by IP: prefills signup country, adds location to activity logs": "ประเทศและที่ตั้งจาก IP: เติมประเทศล่วงหน้าตอนสมัคร และเพิ่มที่ตั้งในบันทึกกิจกรรม"
+    "Country and location by IP: prefills signup country, adds location to activity logs": "ประเทศและที่ตั้งจาก IP: เติมประเทศล่วงหน้าตอนสมัคร และเพิ่มที่ตั้งในบันทึกกิจกรรม",
+    "Local": "ในเครื่อง",
+  "8.8.8.8 resolves to {:location} ({:code})": "8.8.8.8 อยู่ที่ {:location} ({:code})",
+  "File size": "ขนาดไฟล์",
+  "Missing data/GeoLite2-City.mmdb": "ไม่มี data/GeoLite2-City.mmdb",
+  "Not installed (composer require geoip2/geoip2)": "ยังไม่ได้ติดตั้ง (composer require geoip2/geoip2)",
+  "Updated": "อัปเดตเมื่อ",
+  "geoip2 library": "ไลบรารี geoip2"
 }

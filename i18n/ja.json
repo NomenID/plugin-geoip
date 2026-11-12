@@ -1,3 +1,10 @@
 {
-  "Country and location by IP: prefills signup country, adds location to activity logs": "IP による国と所在地の判定：登録時の国を事前入力し、アクティビティログに場所を追加"
+    "Country and location by IP: prefills signup country, adds location to activity logs": "IP による国と所在地の判定：登録時の国を事前入力し、アクティビティログに場所を追加",
+    "Local": "ローカル",
+  "8.8.8.8 resolves to {:location} ({:code})": "8.8.8.8 の判定結果：{:location}（{:code}）",
+  "File size": "ファイルサイズ",
+  "Missing data/GeoLite2-City.mmdb": "data/GeoLite2-City.mmdb がありません",
+  "Not installed (composer require geoip2/geoip2)": "未インストール（composer require geoip2/geoip2）",
+  "Updated": "更新日時",
+  "geoip2 library": "geoip2 ライブラリ"
 }

@@ -1,1 +1,10 @@
-{}
+{
+    "8.8.8.8 resolves to {:location} ({:code})": "8.8.8.8 resolves to {:location} ({:code})",
+    "Country and location by IP: prefills signup country, adds location to activity logs": "Country and location by IP: prefills signup country, adds location to activity logs",
+    "File size": "File size",
+    "Local": "Local",
+    "Missing data/GeoLite2-City.mmdb": "Missing data/GeoLite2-City.mmdb",
+    "Not installed (composer require geoip2/geoip2)": "Not installed (composer require geoip2/geoip2)",
+    "Updated": "Updated",
+    "geoip2 library": "geoip2 library"
+}

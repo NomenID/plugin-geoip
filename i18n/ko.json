@@ -1,3 +1,10 @@
 {
-  "Country and location by IP: prefills signup country, adds location to activity logs": "IP 기반 국가·위치 확인: 가입 시 국가를 미리 채우고 활동 로그에 위치를 추가합니다"
+    "Country and location by IP: prefills signup country, adds location to activity logs": "IP 기반 국가·위치 확인: 가입 시 국가를 미리 채우고 활동 로그에 위치를 추가합니다",
+    "Local": "로컬",
+  "8.8.8.8 resolves to {:location} ({:code})": "8.8.8.8 조회 결과: {:location} ({:code})",
+  "File size": "파일 크기",
+  "Missing data/GeoLite2-City.mmdb": "data/GeoLite2-City.mmdb 없음",
+  "Not installed (composer require geoip2/geoip2)": "미설치 (composer require geoip2/geoip2)",
+  "Updated": "업데이트",
+  "geoip2 library": "geoip2 라이브러리"
 }

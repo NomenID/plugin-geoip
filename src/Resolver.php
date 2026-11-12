@@ -35,6 +35,15 @@ class Resolver
         return self::$reader;
     }
 
+    /** MaxMind 地名按当前界面语言取，缺这门语言时退回英文 */
+    private static function nameOf(array $names, string $fallback): string
+    {
+        $code = \Nomen\Src\I18n::code();
+        $short = explode('-', $code)[0];
+
+        return (string)($names[$code] ?? $names[$short] ?? $names['en'] ?? $fallback);
+    }
+
     public static function getCountryCode(string $ip): ?string
     {
         if (!filter_var($ip, FILTER_VALIDATE_IP)) {
@@ -56,24 +65,24 @@ class Resolver
     public static function getLocation(string $ip): string
     {
         if (!filter_var($ip, FILTER_VALIDATE_IP)) {
-            return '未知位置';
+            return '';
         }
 
         if (in_array($ip, ['127.0.0.1', '::1', 'localhost'], true)) {
-            return '本地';
+            return t('Local');
         }
 
         $reader = self::getReader();
         if (!$reader) {
-            return '未知位置';
+            return '';
         }
 
         try {
             $record = $reader->city($ip);
 
-            $country = $record->country->names['zh-CN'] ?? $record->country->name ?? '';
-            $region = $record->mostSpecificSubdivision->names['zh-CN'] ?? $record->mostSpecificSubdivision->name ?? '';
-            $city = $record->city->names['zh-CN'] ?? $record->city->name ?? '';
+            $country = self::nameOf($record->country->names, $record->country->name ?? '');
+            $region = self::nameOf($record->mostSpecificSubdivision->names, $record->mostSpecificSubdivision->name ?? '');
+            $city = self::nameOf($record->city->names, $record->city->name ?? '');
 
             $parts = [];
             if ($country) {
@@ -86,9 +95,9 @@ class Resolver
                 $parts[] = $city;
             }
 
-            return implode(' ', $parts) ?: '未知位置';
+            return implode(' ', $parts);
         } catch (\Exception $e) {
-            return '未知位置';
+            return '';
         }
     }
 }

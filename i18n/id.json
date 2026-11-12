@@ -1,3 +1,10 @@
 {
-  "Country and location by IP: prefills signup country, adds location to activity logs": "Negara dan lokasi berdasarkan IP: mengisi negara saat pendaftaran dan menambahkan lokasi ke log aktivitas"
+    "Country and location by IP: prefills signup country, adds location to activity logs": "Negara dan lokasi berdasarkan IP: mengisi negara saat pendaftaran dan menambahkan lokasi ke log aktivitas",
+    "Local": "Lokal",
+  "8.8.8.8 resolves to {:location} ({:code})": "8.8.8.8 menghasilkan {:location} ({:code})",
+  "File size": "Ukuran berkas",
+  "Missing data/GeoLite2-City.mmdb": "data/GeoLite2-City.mmdb tidak ada",
+  "Not installed (composer require geoip2/geoip2)": "Belum terpasang (composer require geoip2/geoip2)",
+  "Updated": "Diperbarui",
+  "geoip2 library": "pustaka geoip2"
 }
