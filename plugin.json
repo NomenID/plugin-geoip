@@ -1,6 +1,6 @@
 {
     "name": "GeoIP",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "Country and location by IP: prefills signup country, adds location to activity logs",
     "license": "Apache-2.0",
     "author": [
